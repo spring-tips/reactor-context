@@ -23,7 +23,10 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
 /**
-	* https://simonbasle.github.io/2018/02/contextual-logging-with-reactor-context-and-mdc/
+	* See <a href="https://github.com/spring-projects/spring-security/blob/master/web/src/main/java/org/springframework/security/web/server/context/ReactorContextWebFilter.java">
+	*  the implementation in Spring Security</a>.
+	*
+	*  
 	*/
 @Log4j2
 @SpringBootApplication

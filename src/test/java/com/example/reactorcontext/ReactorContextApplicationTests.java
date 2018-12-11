@@ -1,4 +1,4 @@
-package com.example.context;
+package com.example.reactorcontext;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BasicContextApplicationTests {
+public class ReactorContextApplicationTests {
 
 	@Test
 	public void contextLoads() {
